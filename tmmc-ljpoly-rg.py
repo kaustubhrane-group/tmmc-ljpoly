@@ -1,5 +1,4 @@
-# Combined Code for TMMC Polymer Simulation (Cells 1-4)
-# Intended for Google Colab
+# Combined Code for TMMC Polymer Simulation 
 
 import numpy as np
 import math
@@ -12,9 +11,9 @@ from types import SimpleNamespace # For sim_config object
 
 # --- Global Constants & Configuration Placeholders ---
 KB = 1.0 # Assuming reduced units for simulation
-sim_config = None # Will be populated by Cell 2 logic
+sim_config = None 
 
-# --- Cell 1 Logic: Create input_config.json Programmatically ---
+# Create input_config.json Programmatically ---
 def create_input_config_json(filename="input_config.json"):
     """
     Defines the default configuration and writes it to a JSON file.
@@ -42,7 +41,7 @@ def create_input_config_json(filename="input_config.json"):
         "sigma_ms": 1.0,
         "cv_type": "Rg",
         "num_cv_bins": 49,
-        "cv_min": 1.26, # Can be updated by Cell 3 from library
+        "cv_min": 1.26, 
         "cv_max": 4.09, # Can be updated by Cell 3 from library
         "num_growth_stages": 31,
         "mc_equilibration_cycles": 10000, # Outer GEE blocks for equilibration
