@@ -6,7 +6,7 @@ simulations coupled with a Growth Expanded Ensemble (GEE) to calculate the
 relative free energies of a polymer in an explicit solvent, as a function of a
 collective variable (e.g., Radius of Gyration, Rg). The methodology is based on
 the approach described in "Scalable Free Energy Computation of Polymers in Explicit
-Solvent Using TMMC and Pre-Generated Conformation Libraries" (tmmc1.pdf).
+Solvent Using TMMC and Pre-Generated Conformation Libraries".
 
 The simulation is structured to be run in a Jupyter/Google Colab environment,
 broken down into logical cells or combined into a single script.
